@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+  <location>media-app-1.0.0.jar</location>
+  <name>Media</name>
+  <pagename>Care to listen to some music?</pagename>
+  <url>media</url>
+  <description>The 'Media' application allows you to listen to music or watch videos anywhere in your house!</description>  
+  <icon>icon-music</icon>
+  <package>com.pi.MediaApp</package>
+  <methods>
+    <method>
+      <name>On</name>
+      <action>turnOn</action>
+    </method>
+    <method>
+      <name>Off</name>
+      <action>turnOff</action>
+    </method>
+  </methods>
+</app>
