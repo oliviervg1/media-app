@@ -12,7 +12,8 @@ import automation.api.AbstractApp;
 
 public class MediaApp extends AbstractApp {
 
-	private XMLEditor xml = new XMLEditor("/home/pi/FYP/apache-tomcat-7.0.35/webapps/assets/osmplayer/playlist.xml"); 
+	private static final long serialVersionUID = -8844918685924906439L;
+	private transient XMLEditor xml = new XMLEditor("/home/pi/FYP/apache-tomcat-7.0.35/webapps/assets/osmplayer/playlist.xml"); 
 	
 	@Override
 	public void onStartup() {
