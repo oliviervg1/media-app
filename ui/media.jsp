@@ -71,40 +71,13 @@
 			
 			<!-- Button to trigger modals -->
 			<div class="btn-centered pull-left">
-				<a href="#playVideo" role="button" class="btn btn-large" data-toggle="modal">Play a video on remote device</a>
+				<a href="/apps/media/remotePlayer" role="button" class="btn btn-large">Switch to remote player</a>
 			</div>
 			<div class="btn-group btn-centered pull-right">	
 				<a href="#addVideo" role="button" class="btn btn-large" data-toggle="modal">Add a video to playlist</a>
 				<a href="#deleteVideo" role="button" class="btn btn-large btn-danger" data-toggle="modal">Remove a video from playlist</a>
 			</div>
-				
-			<div id="playVideo" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
-				<div class="modal-header">
-			    	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-			    	<h3 id="ModalLabel">Which video would you like to watch?</h3>
-			  	</div>
-			  	<div class="modal-body">
-			  		<table class="table table-hover">
-					  <thead>
-					    <tr>
-					      <th>#</th>
-					      <th>Title</th>
-					    </tr>
-					  </thead>
-					  <tbody>
-					    <c:forEach var="track" items="${tracks}" varStatus="loop">
-					    	<tr>
-					    		<td>${loop.index}</td>
-								<td><a href="media/webMethod/playTrack?p=${track}">${track}</a></td>
-							</tr>
-						</c:forEach>
-					  </tbody>
-					</table>
-				</div>
-				<div class="modal-footer">
-					<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-				</div>
-			</div>
+			
 				
 			<!-- Add Video -->
 			<div id="addVideo" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">

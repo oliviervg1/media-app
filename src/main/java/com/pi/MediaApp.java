@@ -22,7 +22,7 @@ public class MediaApp extends AbstractApp {
 	@Override
 	public String getState() throws NoSuchMethodException {
 		if (isDeviceAvailable()) {
-			return (String) device.invokeMethod("getPlayingFile");
+			return "Volume: " + getVolume() + "; Track position: " + getTimePosition() + "/" + getTotalTime(); 
 		} else {
 			return "Media device unavailable!";
 		}
