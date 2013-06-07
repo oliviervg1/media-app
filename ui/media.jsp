@@ -82,7 +82,7 @@
 			<!-- Add Video -->
 			<div id="addVideo" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
 			  <div class="modal-header">
-			    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
 			    <h3 id="ModalLabel">Which video are you looking to add?</h3>
 			  </div>
 				  
@@ -170,7 +170,7 @@
 			<!-- Delete Video -->
 			<div id="deleteVideo" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
 			  <div class="modal-header">
-			    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
 			    <h3 id="ModalLabel">Select a video to remove</h3>
 			  </div>
 			  <div class="modal-body">
